@@ -1,0 +1,19 @@
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.help-block {
+	color: red;
+}
+.navbar-brand {
+	padding: 7px 7px;
+}
+.navbar-brand img {
+	width: 75px;
+}
+
+.form-button {
+	text-align: center;
+}
