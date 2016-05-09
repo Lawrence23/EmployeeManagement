@@ -8,7 +8,7 @@ An Angular application to manage Employees. A user can add an Employee, edit exi
 app/                    
   controllers/                    --> Angular Controllers
     empController.js              
-    empController.js
+    mainController.js
   views/                          --> Views to be injected
     EmpManagement.html            
     form.html              
