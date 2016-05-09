@@ -1,6 +1,6 @@
 <h1>Employee Management</h1>
 
-An Angular application to manage Employees. A user can add an Employee, edit existing employee detail or remove Employees from the database.
+An Angular application to manage employee details. A user can add an employee, edit existing employee details or remove employees from the database.
 
 <h3>Directory Structure</h3>
 
