@@ -1,22 +1,10 @@
 <!DOCTYPE html>
     <html ng-app="empApp">
     <head>
-        <!-- SCROLLS -->
-        <!-- load bootstrap and fontawesome via CDN -->
         <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
         <link rel="stylesheet" href="assets/css/styles.css">
-   
-        <!-- SPELLS -->
-        <!-- load angular and angular route via CDN -->
-        <script src="assets/js/angular.min.js"></script>
-        <script src="assets/js/angular-ui-router.min.js"></script>
-        <script src="app/app.module.js"></script>
-        <script src="app/app.route.js"></script>
-        <script src="app/controllers/empController.js"></script>
-        <script src="app/controllers/mainController.js"></script>
     </head>
     <body>
-
         <!-- HEADER AND NAVBAR -->
         <header>
             <nav class="navbar navbar-default">
@@ -28,7 +16,7 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="#"><img alt="Brand" src="employee-management-tips.jpg"></a>
+                        <a class="navbar-brand" href="#"><img alt="Brand" src="assets/images/employee-management-tips.jpg"></a>
                     </div>
                     <ul class="nav navbar-nav navbar-left">
                         <li>
@@ -53,5 +41,11 @@
             <div ui-view></div>
         </div>
 
+        <script src="assets/js/angular.min.js"></script>
+        <script src="assets/js/angular-ui-router.min.js"></script>
+        <script src="app/app.module.js"></script>
+        <script src="app/app.route.js"></script>
+        <script src="app/controllers/empController.js"></script>
+        <script src="app/controllers/mainController.js"></script>
     </body>
     </html>
