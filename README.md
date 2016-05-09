@@ -2,7 +2,7 @@ An Angular application to manage Employees. A user can add an Employee, edit exi
 
 Folder Structure:
 --app
-  -controllers			//Angular Controllers
+  -controllers			//Angular Controllers<br/>
   -views				    //Views to be injected
   -app.module.js    //Angular Module
   -app.routes.js    //Angular Routes
