@@ -14,6 +14,8 @@ app/
     form.html              
     table.html         
     home.html
+  app.module.js                   --> Angular Modules
+  app.route.js                    --> Angular Routes
 assets/            
   css/                            -->User stylesheets
     styles.css
