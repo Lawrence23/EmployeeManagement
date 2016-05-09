@@ -1,4 +1,4 @@
-<h1>Activity Planner</h1>
+<h1>Employee Management</h1>
 
 An Angular application to manage Employees. A user can add an Employee, edit existing employee detail or remove Employees from the database.
 
