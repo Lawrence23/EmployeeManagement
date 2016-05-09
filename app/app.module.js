@@ -1,1 +1,5 @@
-var empApp = angular.module('empApp', ['ui.router']);
+(function() {
+	'use strict';
+
+  	window.app = angular.module('empApp', ['ui.router']);
+})();
