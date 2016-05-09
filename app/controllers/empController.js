@@ -1,5 +1,5 @@
 empApp.controller('empController', function($scope,$http) {
-    $http.get('assets/json/data.json').success(function(data) {
+    $http.get('assets/js/data.json').success(function(data) {
       	$scope.employee = $scope.employee || data;
     });
     $scope.showForm = $scope.showForm || false;
